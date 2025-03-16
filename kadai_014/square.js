@@ -1,4 +1,4 @@
 const calculationResult = (num) => {
-  console.log(num ** 2);
+  return num ** 2;
 }
-calculationResult(10);
+console.log(calculationResult(10));
